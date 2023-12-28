@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의 집</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <a class="logo" href="#">
+            <img src="./img/logo_black.png" alt="logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#"><span>홈</span></a>
+            <a href="#slide">커뮤니티</a>
+            <a href="#fair">쇼핑</a>
+            <a href="#review">이사 / 시공 / 생활</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa-solid fa-magnifying-glass" id="search-btn"></div>
+            <!-- <div class="fa-solid fa-cart-shopping"></div> -->
+            <!-- <div class="fa-regular fa-user"></div> -->
+            <div id="menu-btn" class="fa-solid fa-bars"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="text" id="search-box" placeholder="search for here ...">
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </div>
+    </header>
+
+    <!-- home start -->
+    <section class="home" id="home">
+        <div class="content" data-aos="zoom-in-left">
+            <h3>SUMMER<br>패브릭 특가</h3>
+            <!-- <p>~~~~~~</p> -->
+            <a href="#" class="btn">GO →</a>
+        </div>
+    </section>
+
+    <!-- slide start -->
+    <section class="slide" id="slide">
+        <h1 class="heading">오늘의 집에서만 방문 가능!<span><br></span> <span>#랜선 집들이</span></h1>
+        <div class="row">
+            <swiper-container
+            style="--swiper-navigation-color: #3AB8DE; --swiper-pagination-color: #3AB8DE;"
+            class="mySwiper" speed="600" parallax="true" pagination="true" pagination-clickable="true" navigation="true">
+                <swiper-slide>
+                    <div class="image">
+                        <div class="content">
+                            <h3>
+                                모던하고 미니멀하게, <br>
+                                홈스타일링으로 완성한 <br>
+                                취향가득 우리집
+                            </h3>
+                            <!-- <p>~</p>
+                        <p>~~</p>
+                        <h4>￦45,000</h4> -->
+                            <a href="#" class="btn"># 따뜻 포근</a><a href="#" class="btn"># 화이트톤</a> <br>
+                            <a href="#" class="btn"># 20평대</a><span><br></span><a href="#" class="btn"># 원룸 & 오피스텔</a>
+                        </div>
+                        <img src="./img/slide_1.png" alt="slide1">
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="image">
+                        <div class="content">
+                            <h3>
+                                우드에 초록 한 방울 <br>
+                                내추럴한 감성에 <span><br></span>빈티지를 더한 <br>
+                                아늑한 신혼집
+                            </h3>
+                            
+                            
+                            <a href="#" class="btn"># 내추럴</a><a href="#" class="btn"># 신혼부부</a> <br>
+                            <a href="#" class="btn"># 20평대</a><a href="#" class="btn"># 아파트</a>
+                        </div>
+                        <img src="./img/slide_2.png" alt="slide2">
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="image">
+                        <div class="content">
+                            <h3>
+                                맥시멀리스트가 꾸민 집 <br>
+                                채광 밧집 단독 주택에서 <br>
+                                식물과 함께 살기
+                            </h3>
+
+                            
+                            <a href="#" class="btn"># 빈티지</a><a href="#" class="btn"># 유니크</a> <br>
+                            <a href="#" class="btn"># 40평대</a><a href="#" class="btn"># 단독주택</a>
+                        </div>
+                        <img src="./img/slide_3.png" alt="slide3">
+                    </div>
+                </swiper-slide>
+            </swiper-container>
+        </div>
+    </section>
+
+    <!-- fair start -->
+    <div class="fair" id="fair">
+        <h1 class="heading">오늘의 기획전</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/fair_1.png" alt="1">
+                <p>오직 일주일, 세일에 쿠폰 혜택까지</p>
+                <h3>브랜드위크 빅세일 ~41%</h3>
+                <a href="#">바로가기</a>
+            </div>
+            <div class="box">
+                <img src="./img/fair_2.png" alt="2">
+                <p>꿀잠을 부르는 침대</p>
+                <h3>여름맞이 침구 특가 ~62%</h3>
+                <a href="#">바로가기</a>
+            </div>
+            <div class="box">
+                <img src="./img/fair_3.png" alt="3">
+                <p>집의 무드를 바꾸는 포인트!</p>
+                <h3>플랜테리어 아이템 모음전</h3>
+                <a href="#">바로가기</a>
+            </div>
+            <div class="box">
+                <img src="./img/fair_4.png" alt="4">
+                <p>사생활 보호에 인테리어 효과까지</p>
+                <h3>커튼 / 블라인드 스타일링 ~80%</h3>
+                <a href="#">바로가기</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- themes start -->
+    <!-- 삭제.. -->
+    <!-- <section class="themes" id="themes">
+        <h1 class="heading">오늘의 딜</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image" data-aos="fade-up"
+                data-aos-duration="500">
+                    <img src="./img/deal_1.png" alt="1">
+                </div>
+                <div class="content">
+                    <h3>fvjhukbuhnl.jio</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image" data-aos="fade-up"
+                data-aos-duration="500">
+                    <img src="./img/deal_2.png" alt="2">
+                </div>
+                <div class="content">
+                    <h3>fvjhukbuhnl.jio</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image" data-aos="fade-up"
+                data-aos-duration="500">
+                    <img src="./img/deal_3.png" alt="3">
+                </div>
+                <div class="content">
+                    <h3>fvjhukbuhnl.jio</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- deal start -->
+    <section class="deal" id="deal">
+        <h1 class="heading">오늘의 딜</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./img/deal_1.png" alt="1">
+                </div>
+                <p>베이비브레짜</p>
+                <h3>자동 분유 제조기 / 이유식 마스터기 2종</h3>
+                <h4>159,000원 외</h4>
+                <a href="#"> 쿠폰받기</a>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./img/deal_2.png" alt="2">
+                </div>
+                <p>타카타카</p>
+                <h3>프리미엄시어서커 그레인 <span><br></span>여름 홑이불 12colors</h3>
+                <h4>89,000원</h4>
+                <a href="#"> 쿠폰받기</a>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./img/deal_3.png" alt="3">
+                </div>
+                <p>어프어프</p>
+                <h3>러그 / 발매트 모음전</h3>
+                <h4>19,900원 외</h4>
+                <a href="#"> 쿠폰받기</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- area start -->
+    <!-- <section class="area" id="area">
+        <h1 class="heading"><span>membership</span> benefit</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">coupon</div>
+                    <div class="content">
+                        <div class="conbox1">
+                            <a href="#"><img data-aos="fade-up" data-aos-duration="500"src="./images/Rectangle 15.png" alt="1"></a>
+                            <p>Food is most primitive form of comfort.</p>
+                        </div>
+                        <div class="conbox2">
+                            <a href="#"><img data-aos="fade-up" data-aos-duration="500" src="./images/Rectangle 16.png" alt="2"></a>
+                            <p>Food is most primitive form of comfort.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">delivery</div>
+                    <div class="content">
+                        <div class="conbox1">
+                            <a href="#"><img  data-aos="fade-up" data-aos-duration="500" src="./images/Rectangle 15 (1).png" alt="1"></a>
+                            <p>Food is most primitive form of comfort.</p>
+                        </div>
+                        <div class="conbox2">
+                            <a href="#"><img data-aos="fade-up" data-aos-duration="500" src="./images/Rectangle 15 (2).png" alt="2"></a>
+                            <p>Food is most primitive form of comfort.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">gift</div>
+                    <div class="content">
+                        <div class="conbox1">
+                            <a href="#"><img data-aos="fade-up" data-aos-duration="500" src="./images/Rectangle 16 (2).png" alt="1"></a>
+                            <p>Food is most primitive form of comfort.</p>
+                        </div>
+                        <div class="conbox2">
+                            <a href="#"><img data-aos="fade-up" data-aos-duration="500" src="./images/Rectangle 16(2).png" alt="2"></a>
+                            <p>Food is most primitive form of comfort.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- review start -->
+    <section class="review" id="review">
+        <h1 class="heading">인테리어 시공 리뷰</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="img1"></div>
+                <div class="image1">
+                    <div class="content">
+                        <div class="title">작업실 인테리어</div>
+                        <span>이 업체를 선정한 가장 큰 이유는 ...</span>
+                    </div>
+                    <a href="#" class="btn">자세히 보기</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img2"></div>
+                <div class="image2">
+                    <div class="content">
+                        <div class="title">주방 리모델링</div>
+                        <span>오래된 주방을 리모델링하기 위해 ...</span>
+                    </div>
+                    <a href="#" class="btn">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- goods start -->
+    <section class="goods" id="goods">
+        <h1 class="heading">오늘의 집 Exclusive, <span>O! Goods</span></h1>
+        <div class="container">
+            <div class="box box1">
+                <div class="in">
+                    <h4>BEST</h4>
+                    <!-- <p>.</p> -->
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="in">
+                    <h4>가구</h4>
+                    <!-- <p>.</p> -->
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="in">
+                    <h4>생활 / 수납</h4>
+                    <!-- <p>.</p> -->
+                </div>
+            </div>
+            <div class="box box4">
+                <div class="in">
+                    <h4>패브릭</h4>
+                    <!-- <p>.</p> -->
+                </div>
+            </div>
+            <div class="box box5">
+                <div class="in">
+                    <h4>홈데코 / 조명</h4>
+                    <!-- <p>.</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer start -->
+    <footer>
+        <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-youtube"></a>
+        </div>
+
+        <div class="link">
+            <a href="#">개인정보처리방침</a>
+            <a href="#">회사소개</a>
+            <a href="#">이용약관</a>
+            <a href="#">고객센터</a>
+        </div>
+
+        <div class="fin">
+            <p>해당 웹사이트는 포트폴리오 작업용으로 제작되었습니다.</p>
+        </div>
+
+        <div class="credit">
+            created by 2023. <span>sumin</span> | all right reserved.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
